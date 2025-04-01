@@ -32,7 +32,7 @@ public class LinkedListAddition {
         return dummyHead.next;
     }
 
-    public static ListNode createListFromUserInput() {
+    public static ListNode createList() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter numbers in reverse order (end with -1):");
         ListNode dummyHead = new ListNode(0);
@@ -57,10 +57,10 @@ public class LinkedListAddition {
 
     public static void main(String[] args) {
         System.out.println("Enter first list:");
-        ListNode l1 = createListFromUserInput();
+        ListNode l1 = createList();
 
         System.out.println("Enter second list:");
-        ListNode l2 = createListFromUserInput();
+        ListNode l2 = createList();
 
         LinkedListAddition solution = new LinkedListAddition();
         ListNode result = solution.addTwoNumbers(l1, l2);
