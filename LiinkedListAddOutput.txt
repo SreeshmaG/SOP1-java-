@@ -1,0 +1,2 @@
+[Running] cd "c:\Users\HP\OneDrive\Desktop\Skills\java\" && javac LinkedListAdd.java && java LinkedListAdd
+7 0 8 
